@@ -1,37 +1,33 @@
 import React, {Component} from 'react';
-
+import './UrlBox.css';
 class UrlBox extends Component {
     state = {
-        currentText : "" ,
+        currentText: ""
     }
     onChangeHandler = (e) => {
-       
-        let data = e.target.value ; 
-        this.setState({
-            currentText : data ,
-        })
-    } ;
-
-    keypressHandler =(e) =>{
-        if(e.code=="Enter"){
-            console.log(e);
-            this.props.setUrl(this.state.currentText) ;
-        }
-        this.setState({
-            currentText:"",
-        })
-
-        
+        let data = e.target.value;
+        this.setState({currentText: data})
     };
-   
+
+    onClickHandler = (e) =>{
+        this.props.setUrl(this.state.currentText);
+    }
+
     render() {
         return (
             <div className="UrlBox">
-                <input type="text" className="form-control" 
-                onChange={this.onChangeHandler}
-                value={this.currentText}
-                onKeyPress={this.keypressHandler}
-                placeholder="Enter URL!" ></input>
+                <input type="text" className="urlbox"
+                    onChange={
+                        this.onChangeHandler
+                    }
+                    value={
+                        this.currentText
+                    }
+                    onKeyPress={
+                        this.keypressHandler
+                    }
+                    placeholder="Enter a URL to search!"></input>
+                <button className="search-button btn btn-outline-secondary" type="button" onClick={this.onClickHandler}>CHECK</button>
             </div>
         );
     }

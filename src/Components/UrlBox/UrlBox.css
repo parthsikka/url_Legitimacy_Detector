@@ -1,0 +1,27 @@
+.UrlBox{
+    display: flex;
+    height: 40px ; 
+    width: 400px ;
+    margin-top:40vh;
+    margin-left: 40vw;
+    align-items: center;
+    justify-content: center;
+    size: 1.5rem;
+    color: white;
+}
+.urlbox{
+    height:100%; 
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #E9E6FF;
+    border: none;
+    outline: none;
+}
+.search-button{
+    height: 100%;
+    color: white;
+    background-color: #13262fe1;
+    border: black 2px solid ;
+    
+}
