@@ -11,6 +11,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+# This App Makes use of Google's Safe Browsing API v4 to check if a url is legitimate or not. 
+
 # User Interface : 
 <img width="1440" alt="Screenshot 2021-06-21 at 9 25 12 PM" src="https://user-images.githubusercontent.com/40481954/122792180-8a002900-d2d7-11eb-81d2-99f6df9ff14c.png">
 <img width="1440" alt="Screenshot 2021-06-21 at 9 25 54 PM" src="https://user-images.githubusercontent.com/40481954/122792201-8ff60a00-d2d7-11eb-9032-4a189ff417f3.png">
