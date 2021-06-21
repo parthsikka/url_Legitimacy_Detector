@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# This App Makes use of Google's Safe Browsing API v4 to check if a url is legitimate or not. 
+ This App Makes use of Google's Safe Browsing API v4 to check if a url is legitimate or not. 
 
 # User Interface : 
 <img width="1440" alt="Screenshot 2021-06-21 at 9 25 12 PM" src="https://user-images.githubusercontent.com/40481954/122792180-8a002900-d2d7-11eb-81d2-99f6df9ff14c.png">
@@ -19,10 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <img width="1440" alt="Screenshot 2021-06-21 at 9 26 09 PM" src="https://user-images.githubusercontent.com/40481954/122792208-92586400-d2d7-11eb-8b6d-9dce36e45ddd.png">
 
 
-# The Status of the URL is Displayed by the colour of the backGround of the body. (Green => Safe, Red => Malicious)
+ The Status of the URL is Displayed by the colour of the backGround of the body. (Green => Safe, Red => Malicious)
 
 
-# To test the App, I'm passing a few Malicious URL's : 
+# To test the App, I'm passing a few Malicious URL's () : 
   https://testsafebrowsing.appspot.com/s/phishing.html 
 
   https://testsafebrowsing.appspot.com/s/malware.html 
