@@ -22,10 +22,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # To test the App, I'm passing a few Malicious URL's : 
   https://testsafebrowsing.appspot.com/s/phishing.html 
+
   https://testsafebrowsing.appspot.com/s/malware.html 
+
   https://testsafebrowsing.appspot.com/s/malware_in_iframe.html 
+
   https://testsafebrowsing.appspot.com/s/unwanted.html 
+
   https://testsafebrowsing.appspot.com/s/content.exe
+
   https://testsafebrowsing.appspot.com/apiv4/IOS/MALWARE/URL/
 
 # url_Legitimacy_Detector
