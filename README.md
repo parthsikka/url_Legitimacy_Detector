@@ -19,7 +19,7 @@ This App Makes use of Google's Safe Browsing API v4 to check if a url is legitim
 <img width="1440" alt="Screenshot 2021-06-21 at 9 26 09 PM" src="https://user-images.githubusercontent.com/40481954/122792208-92586400-d2d7-11eb-8b6d-9dce36e45ddd.png">
 
 
- The Status of the URL is Displayed by the colour of the backGround of the body. (Green => Safe, Red => Malicious)
+ # The Status of the URL is Displayed by the colour of the backGround of the body. (Green => Safe, Red => Malicious)
 
 
 # To test the App, I'm passing a few Malicious URL's () : 
